@@ -1,0 +1,75 @@
+       .navbar {
+           height: 80px;
+           width: 100vw;
+           background-color: rgb(254, 254, 255);
+           /* border: 1px solid grey; */
+           display: flex;
+           align-items: center;
+           position:fixed;
+           top: 0px;
+           bottom: 0px;
+       }
+
+       img {
+           height: 60px;
+           margin-left: 50px;
+           margin-top: 5px;
+       }
+
+       .links {
+           display: flex;
+           gap: 40px;
+           margin-top: 20px;
+       }
+
+       .links a {
+           text-decoration: none;
+           color: black;
+           font-size: 17px;
+           font-family: 'Times New Roman', Times, serif;
+       }
+
+       a:hover {
+           color: rgb(96, 95, 95);
+       }
+
+       .firstlink {
+           margin-left: 70px;
+       }
+
+       .buy-button {
+           margin-top: 10px;
+           margin-left: 20px;
+       }
+
+       .buy-button button {
+           border: 2px solid black;
+           height: 41px;
+           width: 120px;
+           background-color: white;
+           font-weight: 650;
+           border-radius: 3px;
+           cursor: pointer;
+       }
+
+       button:hover {
+           background-color: rgb(227, 225, 225);
+       }
+
+       .la {
+           margin-left: 30px;
+           margin-top: 11px;
+           font-size: 19px;
+           color: rgb(84, 83, 83);
+           font-family: 'Times New Roman', Times, serif;
+       }
+
+       .la:hover {
+           color: black
+       }
+
+       .searchicon {
+           margin-left: 70px;
+           margin-bottom: 16px;
+           font-size: 25px;
+       }
